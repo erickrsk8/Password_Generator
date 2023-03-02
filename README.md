@@ -9,3 +9,5 @@ Python is used to make the generator itself and zsh is used to create a function
 * Need to insert input validation into code.
 * Need to add this project to my personal github (requires reconfiguring my stupid github creds).
 * Need input validation for character limit, check for only integers, option for symbols
+
+Running a quick test to make a pull...
