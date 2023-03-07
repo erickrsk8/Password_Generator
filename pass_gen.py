@@ -16,7 +16,7 @@ try:
     if len(sys.argv) > 1 and sys.argv[1].isdigit():
         length = int(sys.argv[1])
     else:
-        length = 8
+        length = 10
 
     # randomly generate the password
     password = "".join(random.sample(use_for, length))

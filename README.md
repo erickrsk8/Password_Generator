@@ -1,13 +1,20 @@
 # Password Generator
 
-This project is a simple comand line password generator made with python/bash.
+This is a simple project that randomly generates a password. 
 
-Python is used to make the generator itself and zsh is used to create a function, allowing you to run the python script using a single command while also passing arguments.
+## Installation
 
-## TO-DO
+1. Download this repo. Using `git clone https://github.com/erickrsk8/Password_Generator.git`.
+2. Navigate to this repo containing this README and two python scripts using `cd /path/to/Password_Generator`.
+3. Run the setup.py file using `python setup.py` (if you get an error, you may need to run `python3 setup.py`).
+4. This file adds the "passgen" function to your rc file in order to have it run as a simple command.
 
-* Need to insert input validation into code.
-* Need to add this project to my personal github (requires reconfiguring my stupid github creds).
-* Need input validation for character limit, check for only integers, option for symbols
+## Functionality
 
-Running a quick test to make a pull...
+Once installation is complete, run the `passgen` command to generate a random password.
+
+You can add any number under 70 after the command to designate password length (why would you want such a long password??)
+
+## Future Releases
+
+* Add the a flag to designate whether symbols should or should not be used.
